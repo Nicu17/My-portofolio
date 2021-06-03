@@ -1,0 +1,32 @@
+.background {
+  background-image: url("../images/background1.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 0;
+  height: 100%;
+}
+
+.noMargin {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar-brand {
+  font-family: cursive;
+  margin-right: 50%;
+  font-size: 35px;
+  font-style: oblique;
+  color:  rgb(231, 227, 227);
+}
+
+.active {
+  margin-left: 100%;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: rgb(231, 227, 227);
+}
+
