@@ -2,6 +2,8 @@ body {
   font-family: none;
 }
 
+/* start home section */
+
 .background {
   background-image: url("../images/background1.jpg");
   background-size: cover;
@@ -43,6 +45,14 @@ body {
 .title2 {
   font-size: 70px;
   color: rgb(231, 227, 227);
+} 
+
+/* end home section */
+
+/*start about section*/
+
+.aboutSection {
+  background-color: rgb(245, 240, 235);
 }
 
 .aboutTitle {
@@ -53,12 +63,15 @@ body {
 .profileImage {
   border-radius: 50%;
   padding-left: 0px;
-  margin-left: 0;
+  margin-left: 145px;
+  margin-top: 40px;
 }
 
 .helloTitle {
-  font-size: 25px;
-  width: 45%;
+  font-size: 87px;
+  width: 25%;
+  margin-top: 75px;
+  margin-left: 20px;
 }
 
 .name {
@@ -67,7 +80,13 @@ body {
 
 .aboutContent {
   float: left;
-  width: 33%;
+  width: 19%;
+  margin-top: 50px;
+  font-size: 28px;
+}
+
+.aboutContent2 {
+  color: rgb(199, 156, 16);
 }
 
 .father {
@@ -78,4 +97,40 @@ body {
   float: right;
 }
 
+.quote {
+  margin-top: 40px;
+}
 
+.qMark1 {
+  color: rgb(199, 156, 16);
+}
+
+.qMark2 {
+  color: rgb(199, 156, 16);
+}
+
+.autorInside {
+  color:  rgb(199, 156, 16);
+}
+
+/*end about section*/
+
+/*start services secton*/
+
+.servicesTitle {
+  margin-top: 40px;
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.noMargin {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.servicesTitle {
+  font-weight: bold;
+}
+
+/*end services section*/

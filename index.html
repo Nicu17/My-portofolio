@@ -2,9 +2,10 @@
     <html>
         <head>
             <meta name="viewport" content="width=device-width, initial-scale=1">
-            <script src="js/main.js"></script>
+            
             <link rel="stylesheet" href="css/bootstrap.min.css">
             <link rel="stylesheet" href="css/font-awesome.min.css">
+            <link rel="stylesheet" href="css/flexslider.css" type="text/css">
             <link rel="stylesheet" href="css/style.css">
         </head>
         <body>
@@ -50,9 +51,8 @@
 
             <!--start about area-->
 
-            <section class="container">
+            <section class="container-fluid aboutSection">
               <div class="row">
-                
                   <div class="aboutTitle col-md-12 text-center">
                     About
                   </div>
@@ -60,18 +60,132 @@
                     <div class="helloTitle col-md-6">
                       Hello! <span class="name">I'm Nicu.</span>
                     </div>
-                      <h4 class="aboutContent col-md-6">
-                        I'm a beginner front-end developer. I have 18 years old and I am still in Hight School.I discovered my passion for computers from a young age
-                      </h4>
                     <div class="aboutPhoto col-md-6">
                       <img class="profileImage" src="images/profileimage.jpg" width="350px">
                       </img>
                     </div>
-                  </div>  
+                      <h4 class="aboutContent col-md-6">
+                        I'm a beginner front-end developer. I have 18 years old and I am still in Hight School.I discovered my passion for computers from a young age ,I decided to follow the way of the front-end web development and <span class="aboutContent2">I like it.</span> <i class="far fa-smile"></i>
+                      </h4>
+                  </div>
+                  <h1 class="quote col-md-12 text-center">
+                    <span class="qMark1">" </span>Beauty is in the eye of the beholder.<span class="qMark2"> "</span>
+                  </h1>
+                  <h3 class="autor col-md-12 text-center">
+                    (<span class="autorInside">Oscar Wilde</span>)
+                  </h3>  
               </div>
             </section>
 
             <!--end about area-->
-            
 
+            <!--start services area-->
+
+            <section class="conatiner-fluid servicesSection">
+              <div class="row noMargin"></div>
+                <div class="servicesTitle col-md-12 text-center">
+                  <h1>
+                    My services
+                  </h1>
+                </div>
+              </div>
+              <section class="container">
+                <div class="flexslider carousel">
+                  <ul class="slides">
+                    <li>
+                      <div class="slideBox1">
+                        <h3 class="numberOfSlide1">
+                          01
+                          <i class="laptopIcons fa fa-laptop" title="laptop" aria-hidden="true"></i>
+                        </h3>
+                        <h4 class="slideTitle1">
+                          Web design
+                        </h4>
+                        <hr class="horizontalLine1">
+                        </hr>
+                        <p>
+                          Extreme attention to detail is the essence of Boo’s unique design concepts.
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="slideBox2">
+                        <h3 class="numberOfSlide2">
+                          02
+                          <i class="videoCameraIcons fa fa-video-camera" title="video" aria-hidden="true"></i>
+                        </h3>
+                        <h4 class="slideTitle2">
+                          Web developer
+                        </h4>
+                        <hr class="horizontalLine2">
+                        </hr>
+                        <p>
+                          Extreme attention to detail is the essence of Boo’s unique design concepts.
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="slideBox3">
+                        <h3 class="numberOfSlide3">
+                          03
+                          <i class="computerIcon fa fa-television"  title="computer" aria-hidden="true"></i>
+                        </h3>
+                        <h4 class="slideTitle3">
+                          Web developer
+                        </h4>
+                        <hr class="horizontalLine3">
+                        </hr>
+                        <p>
+                          Extreme attention to detail is the essence of Boo’s unique design concepts.
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="slideBox4">
+                        <h3 class="numberOfSlide4">
+                          04
+                          <i class="computerIcon fa fa-television" title="computer" aria-hidden="true"></i>
+                        </h3>
+                        <h4 class="slideTitle4">
+                          Photographi
+                        </h4>
+                        <hr class="horizontalLine4">
+                        </hr>
+                        <p>
+                          Extreme attention to detail is the essence of Boo’s unique design concepts.
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+                  </div>
+              </section>
+            </section>
+
+            <!--end services area-->
+            
+            <script src="js/bootstrap.js"></script>
+	          <script src="js/jquery.flexslider.js"></script>
+	          <script type="text/javascript" charset="utf-8">
+              $(function() {
+              $('.flexslider').flexslider({
+                animation: "",
+                animationLoop: "false",
+                itemWidth: 210,
+                itemMargin: 3,
+                minItems: 3,
+                maxItems: 3,
+              });
+
+              $('.flexslider2').flexslider({
+                animation: "",
+                animationLoop: "true",
+                itemWidth: 210,
+                itemMargin: 3,
+                minItems: 3,
+                maxItems: 3,
+              });
+              });
+            </script>
+            <script src="js/main.js"></script>
         </body>
+    </html>
