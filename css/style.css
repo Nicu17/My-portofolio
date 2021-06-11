@@ -133,4 +133,131 @@ body {
   font-weight: bold;
 }
 
+.flexslider {
+  margin: 75px 0 60px;
+}
+
+
+.slides {
+  width: 50%;
+  height: 50%;
+  margin-left: 23%;
+}
+
+.flex-nav-next {
+  margin-right: 10px;
+}
+
+.flex-nav-next .flex-next {
+  margin-right: 55px;
+  background-color: red;
+}
+
+.flex-nav-prev .flex-prev {
+  background-color: red;
+}
+
+.slider1 {
+  width: 380px;
+  border: 1px solid rgb(208, 211, 208);
+  border-radius: 10px;
+  border-width: 6px;
+  padding: 50px;
+  margin: 20px;
+  height: 25pc;
+  display: flex;
+}
+
+.boxDesign {
+  border-right: 1px solid rgb(208, 211, 208);
+  border-bottom: 1px solid rgb(208, 211, 208);
+  width: 215px;
+  background-color: rgb(245, 240, 235);
+  border-radius: 10px;
+  float: left;
+}
+
+.boxDesign .iconDesign {
+  font-size: 190px;
+  border-right: 1px;
+  color: rgb(199, 156, 16);
+}
+
+.slideTitleDesign {
+  float: right;
+  margin-right: 107px;
+  margin-top: 75px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.lineDesign {
+  margin-top: 12px;
+  width: 105px;
+  float: right;
+  margin-right: 150px;
+  height: 4px;
+  color: rgb(39 37 30);
+}
+
+.buttonSlide{
+  float: left;
+  margin-top: 250px;
+  margin-left: -170px;
+  color: rgb(199, 156, 16);
+  border-color: rgb(199, 156, 16);
+  width: 91px;
+  background-color: rgb(245, 240, 235);
+  border-style: dashed;
+}
+
+.slideContent1 {
+  float: right;
+  width: 300px;
+  font-size: 25px;
+  margin-top: 50px;
+  margin-right: 65px;
+}
+
+.downIcon {
+  margin-top: 321px;
+  float: left;
+  font-size: 50px;
+  margin-left: -143px;
+}
+
+.slider2 {
+  width: 380px;
+  border: 1px solid rgb(208, 211, 208);
+  border-radius: 10px;
+  border-width: 6px;
+  padding: 50px;
+  margin: 20px;
+  height: 25pc;
+  display: flex;
+}
+
+.slider3 {
+  width: 380px;
+  border: 1px solid rgb(208, 211, 208);
+  border-radius: 10px;
+  border-width: 6px;
+  padding: 50px;
+  margin: 20px;
+  height: 25pc;
+  display: flex;
+}
+
+.slider4 {
+  width: 380px;
+  border: 1px solid rgb(208, 211, 208);
+  border-radius: 10px;
+  border-width: 6px;
+  padding: 50px;
+  margin: 20px;
+  height: 25pc;
+  display: flex;
+}
+
+
 /*end services section*/

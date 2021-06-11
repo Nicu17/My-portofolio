@@ -2,11 +2,19 @@
     <html>
         <head>
             <meta name="viewport" content="width=device-width, initial-scale=1">
-            
+            <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
             <link rel="stylesheet" href="css/bootstrap.min.css">
             <link rel="stylesheet" href="css/font-awesome.min.css">
             <link rel="stylesheet" href="css/flexslider.css" type="text/css">
             <link rel="stylesheet" href="css/style.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+            <script type="text/javascript" charset="utf-8">
+               $(window).load(function() {
+                $('.flexslider').flexslider();
+              });
+            </script>
+            <script src="js/main.js"></script>
         </head>
         <body>
             <!--start home section-->
@@ -89,103 +97,83 @@
                   </h1>
                 </div>
               </div>
-              <section class="container">
-                <div class="flexslider carousel">
-                  <ul class="slides">
-                    <li>
-                      <div class="slideBox1">
-                        <h3 class="numberOfSlide1">
-                          01
-                          <i class="laptopIcons fa fa-laptop" title="laptop" aria-hidden="true"></i>
-                        </h3>
-                        <h4 class="slideTitle1">
-                          Web design
-                        </h4>
-                        <hr class="horizontalLine1">
-                        </hr>
-                        <p>
-                          Extreme attention to detail is the essence of Boo’s unique design concepts.
-                        </p>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="slideBox2">
-                        <h3 class="numberOfSlide2">
-                          02
-                          <i class="videoCameraIcons fa fa-video-camera" title="video" aria-hidden="true"></i>
-                        </h3>
-                        <h4 class="slideTitle2">
-                          Web developer
-                        </h4>
-                        <hr class="horizontalLine2">
-                        </hr>
-                        <p>
-                          Extreme attention to detail is the essence of Boo’s unique design concepts.
-                        </p>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="slideBox3">
-                        <h3 class="numberOfSlide3">
-                          03
-                          <i class="computerIcon fa fa-television"  title="computer" aria-hidden="true"></i>
-                        </h3>
-                        <h4 class="slideTitle3">
-                          Web developer
-                        </h4>
-                        <hr class="horizontalLine3">
-                        </hr>
-                        <p>
-                          Extreme attention to detail is the essence of Boo’s unique design concepts.
-                        </p>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="slideBox4">
-                        <h3 class="numberOfSlide4">
-                          04
-                          <i class="computerIcon fa fa-television" title="computer" aria-hidden="true"></i>
-                        </h3>
-                        <h4 class="slideTitle4">
-                          Photographi
-                        </h4>
-                        <hr class="horizontalLine4">
-                        </hr>
-                        <p>
-                          Extreme attention to detail is the essence of Boo’s unique design concepts.
-                        </p>
-                      </div>
-                    </li>
-                  </ul>
-                  </div>
-              </section>
+              <div class="row flexslider">
+                <ul class="slides">
+                  <li class="slider1 container">
+                    <div class="boxDesign">
+                      <i class="iconDesign fa fa-eye" aria-hidden="true"></i>
+                    </div>
+                    <button class="buttonSlide">
+                      Contact me new!
+                    </button>
+                      <i class="downIcon fas fa-angle-double-down"></i>
+                    <div class="slideTitleDesign">
+                      Beautiful Design
+                    </div>
+                    <hr class="lineDesign" style="height: 5px;">
+                    </hr>
+                    <div class="slideContent1">
+                      The first contact that the user makes with your site is the visual one. So the design part must be beautiful and easy to use.
+                    </div>
+                  </li>
+                  <li class="slider2 container">
+                    <div class="boxDesign">
+                      <i class="iconDesign fa fa-eye" aria-hidden="true"></i>
+                    </div>
+                    <button class="buttonSlide">
+                      Contact me new!
+                    </button>
+                      <i class="downIcon fas fa-angle-double-down"></i>
+                    <div class="slideTitleDesign">
+                      Beautiful Design
+                    </div>
+                    <hr class="lineDesign" style="height: 5px;">
+                    </hr>
+                    <div class="slideContent1">
+                      The first contact that the user makes with your site is the visual one. So the design part must be beautiful and easy to use.
+                    </div>
+                  </li>
+                  <li class="slider3">
+                    <div class="boxDesign">
+                      <i class="iconDesign fa fa-eye" aria-hidden="true"></i>
+                    </div>
+                    <button class="buttonSlide">
+                      Contact me new!
+                    </button>
+                      <i class="downIcon fas fa-angle-double-down"></i>
+                    <div class="slideTitleDesign">
+                      Beautiful Design
+                    </div>
+                    <hr class="lineDesign" style="height: 5px;">
+                    </hr>
+                    <div class="slideContent1">
+                      The first contact that the user makes with your site is the visual one. So the design part must be beautiful and easy to use.
+                    </div>
+                  </li>
+                  <li class="slider4">
+                    <div class="boxDesign">
+                      <i class="iconDesign fa fa-eye" aria-hidden="true"></i>
+                    </div>
+                    <button class="buttonSlide">
+                      Contact me new!
+                    </button>
+                      <i class="downIcon fas fa-angle-double-down"></i>
+                    <div class="slideTitleDesign">
+                      Beautiful Design
+                    </div>
+                    <hr class="lineDesign" style="height: 5px;">
+                    </hr>
+                    <div class="slideContent1">
+                      The first contact that the user makes with your site is the visual one. So the design part must be beautiful and easy to use.
+                    </div>
+                  </li>
+                </ul>
+              </div>
             </section>
 
             <!--end services area-->
-            
             <script src="js/bootstrap.js"></script>
 	          <script src="js/jquery.flexslider.js"></script>
-	          <script type="text/javascript" charset="utf-8">
-              $(function() {
-              $('.flexslider').flexslider({
-                animation: "",
-                animationLoop: "false",
-                itemWidth: 210,
-                itemMargin: 3,
-                minItems: 3,
-                maxItems: 3,
-              });
-
-              $('.flexslider2').flexslider({
-                animation: "",
-                animationLoop: "true",
-                itemWidth: 210,
-                itemMargin: 3,
-                minItems: 3,
-                maxItems: 3,
-              });
-              });
-            </script>
             <script src="js/main.js"></script>
         </body>
     </html>
