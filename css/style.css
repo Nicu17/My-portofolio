@@ -150,11 +150,6 @@ body {
 
 .flex-nav-next .flex-next {
   margin-right: 55px;
-  background-color: red;
-}
-
-.flex-nav-prev .flex-prev {
-  background-color: red;
 }
 
 .slider1 {
@@ -214,7 +209,7 @@ body {
 .slideContent1 {
   float: right;
   width: 300px;
-  font-size: 25px;
+  font-size: 23px;
   margin-top: 50px;
   margin-right: 65px;
 }
@@ -237,6 +232,14 @@ body {
   display: flex;
 }
 
+.iconResponsive {
+  font-size: 190px;
+  border-right: 1px;
+  color: rgb(199, 156, 16);
+  margin-left: 50px;
+}
+
+
 .slider3 {
   width: 380px;
   border: 1px solid rgb(208, 211, 208);
@@ -246,6 +249,12 @@ body {
   margin: 20px;
   height: 25pc;
   display: flex;
+}
+
+.iconCustomize {
+  font-size: 190px;
+  border-right: 1px;
+  color: rgb(199, 156, 16);
 }
 
 .slider4 {
@@ -259,5 +268,114 @@ body {
   display: flex;
 }
 
+.iconManage {
+  font-size: 170px;
+  border-right: 1px;
+  color: rgb(199, 156, 16);
+  margin-left: 20px;
+}
+
+.flex-direction-nav a:before {
+  font-family: 'FontAwesome';
+  font-size: 40px;
+  display: inline-block;
+  content: '\f053';
+  color: rgb(199, 156, 16);
+  margin-right: 55px;
+}
+.flex-direction-nav a.flex-next:before {
+  content: '\f054';
+}
 
 /*end services section*/
+
+/*start freelancing area*/
+
+.backgroundFreelancing {
+  background-color: bisque;
+}
+
+.freelancingTitle {
+  margin-top: 100px;
+}
+
+.contactIcons {
+  margin-top: 20px;
+}
+
+.freelancingButton {
+  width: 10 0px;
+  margin-left: 46%;
+  margin-top: 20px;
+  height: 50px;
+  background-color: rgb(165, 25, 25);
+  font-weight: 10px;
+  color: white;  
+}
+
+/*end freelancing area*/
+
+/*start contact area*/
+
+.contactTitle {
+  margin-top: 60px;
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 30px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/*end contact area*/
+
+/*start footer area*/
+
+.backgroundFooter {
+  background-color: black;
+  margin-top: 50px;
+}
+
+.copyright {
+  margin-top: 50px;
+  color: #ccc;
+}
+
+.email {
+  color: #ccc;
+}
+
+.footerIcons {
+  margin-top: 10px;
+  margin-bottom: 70px;
+}
+
+/*end footer area*/
