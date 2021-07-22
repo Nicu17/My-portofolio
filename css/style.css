@@ -327,6 +327,7 @@ body {
 
 .popup {
   display: flex;
+  display: none;
 }
 
 .close {

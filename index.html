@@ -176,28 +176,29 @@
             <!--end services area-->
 
             <!--start freelancing area-->
-
-            <section class="container-fluid">
-              <div class=" backgroundFreelancing row">
-                <h1 class="freelancingTitle col-md-12 text-center">
-                  I Am Available For Freelanceing.
-                </h1>
-                <div class="contactIcons col-md-12 text-center">
-                  <a href="https://www.facebook.com/nicu.leonte.9" target="_blank">
-                    <i class="fab fa-facebook" style="font-size: 40px; color: rgba(0, 153, 255, 0.925); cursor: pointer;"></i>
-                  </a>
-                  <a href="https://www.instagram.com/leontenicu/" target="_blank">
-                    <i class="fab fa-instagram" style="font-size: 40px; color: rgba(255, 136, 0, 0.925); margin-left: 30px;cursor: pointer;"></i>
-                  </a>
-                  <a href="https://www.linkedin.com/in/nicu-leonte-22b36818b/" target="_blank">
-                    <i class="fab fa-linkedin-in" style="font-size: 40px; color: rgba(16, 137, 218, 0.925); margin-left: 30px;cursor: pointer;"></i>
-                  </a>
+            
+              <section class="container-fluid">
+                <a name= "freelancing"></a>
+                <div class=" backgroundFreelancing row">
+                  <h1 class="freelancingTitle col-md-12 text-center">
+                    I Am Available For Freelanceing.
+                  </h1>
+                  <div class="contactIcons col-md-12 text-center">
+                    <a href="https://www.facebook.com/nicu.leonte.9" target="_blank">
+                      <i class="fab fa-facebook" style="font-size: 40px; color: rgba(0, 153, 255, 0.925); cursor: pointer;"></i>
+                    </a>
+                    <a href="https://www.instagram.com/leontenicu/" target="_blank">
+                      <i class="fab fa-instagram" style="font-size: 40px; color: rgba(255, 136, 0, 0.925); margin-left: 30px;cursor: pointer;"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/nicu-leonte-22b36818b/" target="_blank">
+                      <i class="fab fa-linkedin-in" style="font-size: 40px; color: rgba(16, 137, 218, 0.925); margin-left: 30px;cursor: pointer;"></i>
+                    </a>
+                  </div>
+                  <button class="freelancingButton col-md-1 text-center" href = "contact">
+                    HIRE ME!
+                  </button>
                 </div>
-                <button class="freelancingButton col-md-1 text-center">
-                  HIRE ME!
-                </button>
-              </div>
-            </section>
+              </section>
 
             <!--end freelancing area-->
 
@@ -212,23 +213,31 @@
                   </h1>
                 </div>
               </div>
-              <div class="popup col-md-12">
+
+              <!--start popup action-->
+
+              <div class="popup col-md-12" id="open">
                 <div class="popupBox col-md-12 text-center">
-                  <button class="close"><i class="far fa-window-close"></i></button>
+                  <button class="close" onclick="closePopup()"><i class="far fa-window-close"></i></button>
                   <div class="popupTitle col-md-12 text-center">
                     Sorry!
                   </div>
                   <div class="contentPopup col-md-12 text-center">
                     This option is not available yet. Please contact me through the other contact methods. 
                   </div>
-                  <button class="otherContactButton col-md-12 text-center" id = "otherContactButton">
-                    Other Contact
-                  </button>
+                  <a href="#freelancing">
+                    <button class="otherContactButton col-md-12 text-center" id="popupButton" onclick="closePopup()">
+                        Other Contact
+                    </button>
+                  </a>
                 </div>
               </div>
+
+              <!--start popup action-->
+
               <div class="container">
-                <form action="action_page.php">
-                  <label for="fname">First Name</label>
+                <form action="action_page.php" onclick="openPopup()">
+                  <label for="fname" id="open">First Name</label>
                   <input type="text" id="fname" name="firstname" placeholder="Your name..">
                   <label for="lname">Last Name</label>
                   <input type="text" id="lname" name="lastname" placeholder="Your last name..">
