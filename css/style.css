@@ -20,6 +20,14 @@ body {
   padding-right: 0;
 }
 
+.navbar {
+  position: fixed;
+  background-color: rgb(136, 107, 11);
+  overflow: hidden;
+  top: 0;
+  z-index: 9;
+}
+
 .navbar-brand {
   font-family: cursive;
   margin-right: 50%;
@@ -30,11 +38,12 @@ body {
 }
 
 .active {
-  margin-left: 100%;
+  margin-left: 250px;
 }
 
 .navbar-nav .nav-item .nav-link {
   color: rgb(231, 227, 227);
+  font-size: 15px;
 }
 
 .welcomeTitle {
@@ -427,3 +436,79 @@ input[type=submit]:hover {
 }
 
 /*end footer area*/
+
+/*start media query area*/
+
+/*start media query menu area*/
+@media only screen and (max-width: 1200) and (min-width: 1025px){
+
+}
+
+@media only screen and (orientation:portrait) and (min-width: 1024px) { 
+  .active {
+    margin-left: 45%;
+  }
+}
+
+@media only screen and (orientation:portrait) and (min-width: 768px) {
+  .active {
+    margin-left: 25%;
+  }
+
+  .navbar-nav {
+    display: none;
+  }
+}
+
+/*end media query menu area*/
+
+/*start media query background area*/
+@media only screen and (orientation:portrait) and (min-width: 1024px) {
+  .background {
+    height: 40%;
+  }
+}
+
+@media only screen and (orientation:landscape) and (min-width: 1024px) {
+  .background {
+    height: 70%;
+  }
+}
+/*end media query background area*/
+
+/*start media query about area*/
+@media only screen and (orientation:portrait) and (min-width: 1024px) {
+  .helloTitle {
+    font-size: 66px;
+  }
+
+  .profileImage {
+    margin-left: 54px;
+  }
+
+  .aboutContent {
+    font-size: 22px;
+  }
+}
+/*end media query about area*/
+
+/*start media query services area*/
+@media only screen and (orientation:portrait) and (min-width: 1024px) {
+  .slideTitleDesign {
+    margin-top: 75px;
+    margin-right: 0px;
+    float: none;
+  }
+
+  .lineDesign {
+    margin-right: 100px;
+  }
+
+  .slideContent1{
+    margin-right: 0px;
+    margin-top: 0;
+  }
+}
+/*end media query services area*/
+
+/*end media query area*/
