@@ -20,30 +20,13 @@ body {
   padding-right: 0;
 }
 
-.navbar {
-  position: fixed;
-  background-color: rgb(136, 107, 11);
-  overflow: hidden;
-  top: 0;
-  z-index: 9;
-}
-
 .navbar-brand {
   font-family: cursive;
-  margin-right: 50%;
+  
   font-size: 35px;
   font-style: oblique;
   color:  rgb(231, 227, 227);
-  margin-left: 40px;
-}
-
-.active {
-  margin-left: 250px;
-}
-
-.navbar-nav .nav-item .nav-link {
-  color: rgb(231, 227, 227);
-  font-size: 15px;
+  margin-top: 20px;
 }
 
 .welcomeTitle {
@@ -440,74 +423,194 @@ input[type=submit]:hover {
 /*start media query area*/
 
 /*start media query menu area*/
-@media only screen and (max-width: 1200) and (min-width: 1025px){
 
-}
-
-@media only screen and (orientation:portrait) and (min-width: 1024px) { 
-  .active {
-    margin-left: 45%;
+@media only screen and (orientation:portrait) and (max-width: 1024px) {
+  .welcomeTitle {
+    margin-top: 85px;
   }
 }
 
-@media only screen and (orientation:portrait) and (min-width: 768px) {
-  .active {
-    margin-left: 25%;
+
+@media only screen and (orientation:portrait) and (max-width: 768px) {
+  .navbar-brand {
+    margin-right: auto;
   }
 
-  .navbar-nav {
-    display: none;
+}
+
+@media only screen and (orientation:portrait) and (max-width: 812px) {
+  .welcomeTitle {
+    font-size: 21px;
+    margin-top: 0px;
   }
+
+  .title2 {
+    font-size: 30px;
+  }
+}
+
+.navbar-brand {
+  font-size: 15px;
+  margin-top: 0px;
 }
 
 /*end media query menu area*/
 
 /*start media query background area*/
-@media only screen and (orientation:portrait) and (min-width: 1024px) {
+@media only screen and (orientation:portrait) and (max-width: 1024px) {
   .background {
     height: 40%;
   }
 }
 
-@media only screen and (orientation:landscape) and (min-width: 1024px) {
+@media only screen and (orientation:landscape) and (max-width: 1024px) {
   .background {
     height: 70%;
   }
 }
+
+@media only screen and (orientation:portrait) and (max-width: 812px) {
+  .background {
+    height: 25%;
+}
+}
 /*end media query background area*/
 
 /*start media query about area*/
-@media only screen and (orientation:portrait) and (min-width: 1024px) {
+@media only screen and (orientation:portrait) and (max-width: 1024px) {
   .helloTitle {
-    font-size: 66px;
+    font-size: 42px;
+    margin-left: 8px;
   }
 
   .profileImage {
-    margin-left: 54px;
+    margin-left: 0;
+    margin-top: 0;
   }
 
   .aboutContent {
-    font-size: 22px;
+    font-size: 16px;
   }
 }
+
+@media only screen and (orientation:landscape) and (max-width: 1024px) {
+  .helloTitle {
+    font-size: 58px;
+  }
+
+  .profileImage {
+    margin-left: 46px;
+    margin-top: 15px;
+  }
+
+  .aboutContent {
+    font-size: 19px;
+  }
+}
+
+@media only screen and (orientation:portrait) and (max-width: 1366px) {
+  .profileImage {
+    margin-left: 62px;
+  }
+}
+
+@media only screen and (orientation:portrait) and (max-width: 812px) {
+  .aboutTitle {
+    font-size: 25px;
+  }
+
+  .helloTitle {
+    font-size: 23px;
+  }
+
+  .profileImage {
+    width: 140px;
+    margin-left: 0px;
+    margin-top: 56px;
+  }
+
+  .aboutContent {
+    width: 30%;
+    font-size: 9px;
+  }
+}
+
 /*end media query about area*/
 
 /*start media query services area*/
-@media only screen and (orientation:portrait) and (min-width: 1024px) {
+@media only screen and (orientation:portrait) and (max-width: 1024px) {
   .slideTitleDesign {
-    margin-top: 75px;
+    margin-top: 53px;
     margin-right: 0px;
     float: none;
   }
 
   .lineDesign {
-    margin-right: 100px;
+    margin-right: 47px;
   }
 
   .slideContent1{
-    margin-right: 0px;
+    width: 217px;
     margin-top: 0;
+    font-size: 19px;
+    margin-right: 0;
   }
+}
+
+@media only screen and (orientation:landscape) and (max-width: 1024px) {
+  .slideTitleDesign {
+    margin-right: 54px;
+    float: none;
+  }
+
+  .slideContent1 {
+    margin-right: 25px;
+    font-size: 21px;
+  }
+
+  .lineDesign {
+    margin-right: 105px;
+  }
+}
+@media only screen and (orientation:portrait) and (max-width: 812px) {
+  .boxDesign .iconDesign {
+    font-size: 60px;
+    margin-left: 47px;
+  }
+
+  .iconResponsive {
+    font-size: 60px;
+    margin-left: 63px;
+  }
+
+  .boxDesign {
+    width: 172px;
+  }
+
+  .slideTitleDesign {
+    font-size: 24px;
+  }
+
+  .lineDesign {
+    margin-right: 37px;
+  }
+
+  .slideContent1 {
+    width: 168px;
+    font-size: 16px;
+  }
+
+  .buttonSlide {
+    margin-left: -133px;
+    margin-top: 270px;
+  }
+
+  .downIcon {
+    margin-top: 312px;
+    margin-left: -108px;
+
+  }
+
 }
 /*end media query services area*/
 
