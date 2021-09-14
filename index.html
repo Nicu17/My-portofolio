@@ -22,8 +22,18 @@
 
                 <section class="container-fluid background">
                   <a name="home"></a>
-                    <div class="row noMargin">
-                        <a class="navbar-brand">Nicu</a>
+                    <div class="topnav">
+                      <a class="active">Nicu</a>
+                      <span class="forMenu">
+                        <div id="myLinks">
+                          <a href="#news">News</a>
+                          <a href="#contact">Contact</a>
+                          <a href="#about">About</a>
+                        </div>
+                      </span>
+                      <a href="javascript:void(0);" class="icon" id="menuIcon" onclick="myFunction()">
+                        <i class="menuIcon fa fa-bars"></i>
+                      </a>
                     </div>
                       <div class="welcomeTitle col-md-12 text-center">
                         Welcome!  
@@ -154,6 +164,83 @@
 
             <!--end services area-->
 
+            <!--start my projects area-->
+
+            <section class="container-fluid">
+              <div class="row">
+                <h1 class="myProjectsTitle col-md-12 text-center">
+                  My projects
+                </h1>
+                <div class="myBlogTitle col-md-12">
+                </div>
+                <div class="boxImg1  col-md-4">
+                  <button class="travellingButton" type="button">TRAVELLING</button>
+                  <img class="img-fluid" src="images/trav1.jpg"/>
+                  <div class="travelling">
+                    <div>
+                      <i class="calendar fa fa-calendar" aria-hidden="true"></i>
+                      July 3, 2018 in Travelling
+                      <i class="fa fa-commenting-o" aria-hidden="true"></i>
+                      3
+                      <h4 class="text">
+                        Seven places that you can find graphic designer
+                      </h4>
+                      <div class="autor">
+                        <img class="autor1" src="images/autor1.jpg" width="30px">
+                        <h6 class="johnSmithTitle">
+                          John Smith
+                        </h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="boxImg2 col-md-4">
+                  <button class="travellingButton" type="button">TRAVELLING</button>
+                  <div  class="travelling">
+                    <img class="img-fluid" src="images/trav2.jpg"/>
+                    <div>
+                      <i class="calendar fa fa-calendar" aria-hidden="true"></i>
+                      July 3, 2018 in Travelling
+                      <i class="fa fa-commenting-o" aria-hidden="true"></i>
+                      3
+                      <h4 class="text">
+                        Seven places that you can find graphic designer
+                      </h4>
+                      <div class="autor">
+                        <img class="autor1" src="images/autor1.jpg" width="30px">
+                        <h6 class="johnSmithTitle">
+                          John Smith
+                        </h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="boxImg3  col-md-4">
+                  <button class="travellingButton" type="button">TRAVELLING</button>
+                  <div  class="travelling">
+                    <img class="img-fluid" src="images/trav3.jpg"/>
+                    <div>
+                      <i class="calendar fa fa-calendar" aria-hidden="true"></i>
+                      July 3, 2018 in Travelling
+                      <i class="fa fa-commenting-o" aria-hidden="true"></i>
+                      3
+                      <h4 class="text">
+                        Seven places that you can find graphic designer
+                      </h4>
+                      <div class="autor">
+                        <img class="autor1" src="images/autor1.jpg" width="30px">
+                        <h6 class="johnSmithTitle">
+                          John Smith
+                        </h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!--end my projects area-->
+
             <!--start freelancing area-->
             
               <section class="container-fluid">
@@ -257,6 +344,16 @@
             <!--end footer area-->
             <script src="js/bootstrap.js"></script>
 	          <script src="js/jquery.flexslider.js"></script>
+            <script>
+              function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                  x.style.display = "none";
+                } else {
+                  x.style.display = "block";
+                }
+              }
+            </script>
             <script src="js/main.js"></script>
         </body>
     </html>
