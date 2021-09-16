@@ -36,8 +36,9 @@ body {
   color: white;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 21px;
   display: block;
+  font-style: italic;
 }
 
 .topnav a.icon {
@@ -56,13 +57,14 @@ body {
 
 .forMenu {
   display: flex;
+  margin-left: 50%;
+  margin-top: 5%;
 }
 
 /*end navbar part*/
 
 .navbar-brand {
   font-family: cursive;
-  
   font-size: 35px;
   font-style: oblique;
   color:  rgb(231, 227, 227);
@@ -78,6 +80,22 @@ body {
   font-size: 70px;
   color: rgb(231, 227, 227);
 } 
+
+.whatsapp {
+  display: flex;
+}
+
+.whatsappIcon {
+  width: 80px;
+  color: green;
+  float: right;
+  font-size: 50px;
+  margin-left: 95%;
+  cursor: pointer;
+  margin-top: 140px;
+  position: fixed;
+  z-index: 9;
+}
 
 /* end home section */
 
@@ -212,7 +230,7 @@ body {
 
 .slideTitleDesign {
   float: right;
-  margin-right: 107px;
+  margin-right: 79px;
   margin-top: 75px;
   font-size: 30px;
   font-weight: bold;
@@ -242,7 +260,7 @@ body {
   float: right;
   width: 300px;
   font-size: 23px;
-  margin-top: 50px;
+  margin-top: 18px;
   margin-right: 65px;
 }
 
@@ -328,6 +346,7 @@ body {
   padding: 0;
   margin-left: 0;
   margin-right: 0;
+  margin-bottom: 30px;
 }
 .blog {
   background-color: #f7f7f7;
@@ -343,7 +362,7 @@ border: 1px solid rgb(235, 232, 232);
 }
 
 .boxImg1 img:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .travellingButton {
@@ -368,6 +387,10 @@ border: 1px solid rgb(235, 232, 232);
 
 .text {
   padding-left: 20px;
+}
+
+.wordpressIcon {
+  margin-left: 30px;
 }
 
 .autor .autor1 {
@@ -423,6 +446,10 @@ border: 1px solid rgb(235, 232, 232);
 
 .boxImg3 img:hover {
   transform: scale(1.1);
+}
+
+.myProjectsArea {
+  margin-bottom: 60px;
 }
 
 /*end my projects area*/
@@ -618,7 +645,7 @@ input[type=submit]:hover {
 @media only screen and (orientation:portrait) and (max-width: 812px) {
   .background {
     height: 25%;
-}
+  }
 }
 /*end media query background area*/
 
