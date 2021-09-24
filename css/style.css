@@ -480,7 +480,7 @@ border: 1px solid rgb(235, 232, 232);
 }
 
 .freelancingButton {
-  width: 10 0px;
+  width: 100px;
   margin-left: 46%;
   margin-top: 20px;
   height: 50px;
@@ -660,6 +660,26 @@ input[type=submit]:hover {
   }
 }
 
+@media only screen and (orientation: landscape) and (max-width: 736px) {
+  .welcomeTitle {
+    font-size: 35px;
+  }
+
+  .title2 {
+    font-size: 38px;
+  }
+}
+
+@media only screen and (orientation:portrait) and (max-width: 375px) {
+  .welcomeTitle {
+    font-size: 22px;
+  }
+
+  .title2 {
+    font-size: 25px;
+  }
+}
+
 /*end media query menu area*/
 
 /*start media query background area*/
@@ -774,6 +794,44 @@ input[type=submit]:hover {
   }
 }
 
+@media only screen and (orientation: landscape) and (max-width: 736px) {
+  .helloTitle {
+    font-size: 45px;
+  }
+
+  .profileImage {
+    width: 290px;
+    margin-top: 28px;
+  }
+
+  .aboutContent {
+    width: 27%;
+  }
+}
+
+@media only screen and (orientation:portrait) and (max-width: 375px) {
+  .helloTitle {
+    margin-top: 40px;
+  }
+
+  .profileImage {
+    margin-top: 18px;
+    margin-left: -10px;
+  }
+
+  .aboutContent {
+    width: 30%;
+    font-size: 9px;
+    margin-top: 25px;
+  }
+}
+
+@media only screen and (orientation:landscape) and (max-width: 667px) {
+  .aboutContent {
+    width: 28%;
+    font-size: 16px;
+  }
+}
 /*end media query about area*/
 
 /*start media query services area*/
@@ -924,9 +982,92 @@ input[type=submit]:hover {
     margin-left: 50px;
   }
 
+  .slideTitleDesign {
+    font-size: 24px;
+  }
 
+  .slideContent1 {
+    width: 186px;
+    font-size: 15px;
+  }
+
+  .buttonSlide {
+    margin-top: 275px;
+    margin-left: -143px;
+  }
+
+  .downIcon {
+    margin-left: -114px;
+  }
+
+  .iconResponsive {
+    font-size: 75px;
+    margin-left: 68px;
+  }
+
+  .iconCustomize {
+    font-size: 75px;
+    margin-left: 58px;
+  }
+
+  .iconManage {
+    font-size: 75px;
+    margin-left: 58px;
+  }
+
+  .flex-nav-next .flex-next {
+    margin-right: 0;
+  }
 }
 
+@media only screen and (orientation: landscape) and (max-width: 736px) {
+  .slideTitleDesign {
+    font-size: 28px;
+    margin-top: 35px;
+  }
+
+  .buttonSlide {
+    margin-left: -200px;
+  }
+
+  .downIcon {
+    margin-top: 286px;
+    margin-left: -171px;
+  }
+}
+
+@media only screen and (orientation:portrait) and (max-width: 375px) {
+  .boxDesign {
+    width: 172px;
+  }
+
+  .slideTitleDesign {
+    font-size: 21px;
+  }
+
+  .slideContent1 {
+    width: 169px;
+  }
+
+  .downIcon {
+    display: none;
+  }
+}
+
+@media only screen and (orientation:landscape) and (max-width: 667px) {
+  .boxDesign {
+    width: 203px;
+  }
+
+  .slideTitleDesign {
+    font-size: 21px;
+  }
+
+  .slideContent1 {
+    font-size: 19px;
+    width: 197px;
+  }
+}
 /*end media query services area*/
 
 
@@ -936,6 +1077,20 @@ input[type=submit]:hover {
   .freelancingButton {
     margin-left: 37%;
     width: 100px;
+  }
+}
+
+@media only screen and (orientation:portrait) and (max-width: 414px) {
+  .freelancingButton {
+    width: 75px;
+    margin-left: 42%;
+  }
+}
+
+@media only screen and (orientation: landscape) and (max-width: 736px) {
+  .freelancingButton {
+    width: 100px;
+    margin-left: 44%;
   }
 }
 

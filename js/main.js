@@ -2,11 +2,11 @@ function openPopup(){
     document.getElementById("open").style.display = "block";
 }
 
-/*function closePopup(){
+function closePopup(){
     document.getElementById("open").style.display = "none";
 }
 
-function showMenu(){
+/*function showMenu(){
     document.getElementById("nav").style.display = "block";
 }
 
