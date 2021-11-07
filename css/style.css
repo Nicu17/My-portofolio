@@ -380,22 +380,6 @@ border: 1px solid rgb(235, 232, 232);
   transform: scale(1.05);
 }
 
-.travellingButton {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  background: #ff3636;
-  border-radius: 4px;
-  z-index: 3;
-  font-size: 12px;
-  font-weight: 400;
-  padding: 4px 8px;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: .5px;
-  color: #ffffff;
-}
-
 .calendar {
   padding-left: 20px;
 }
@@ -432,6 +416,7 @@ border: 1px solid rgb(235, 232, 232);
 
 .boxImg2 img {
   transition: transform 0.2s;
+  width: 100%;
 }
 
 .boxImg2 img:hover {
